@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img
+      src="https://i.pinimg.com/736x/9b/71/80/9b7180299366cb6183ae8e185ce891bf.jpg"
+      width="150"
+    />
+    <hr />
+    <h2>Create a burger!</h2>
+    <form>
+      <label for="protein">What type of protein would you like?</label>
+      <input type="text" id="protein" name="protein" />
+      <hr />
+
+      <label for="patties">How many patties would you like?</label>
+      <input type="number" id="patties" name="patties" />
+      <hr />
+      How do you want your patty cooked<br />
+      Rare<input type="range" min="0" max="4" />Well-Done
+      <hr />
+      What toppings would you like?<br />
+      <input type="checkbox" id="Lettuce" name="Lettuce" value="Lettuce" />
+      <label for="vehicle1"> Lettuce</label>
+      <input type="checkbox" id="Tomato" name="Tomato" value="Tomato" />
+      <label for="Tomato"> Tomato</label>
+      <input type="Checkbox" id="Onion" name="Onion" value="Onion" />
+      <label for="Onion"> Onion</label>
+      <hr />
+      Would you like to add cheese?
+      <input type="radio" id="yes" name="yes" value="yes" />
+      <label for="yes"> Yes </label>
+      <input type="radio" id="no" name="no" value="no" />
+      <label for="no"> No </label>
+      <hr />
+
+      <label for="Buntype">What type of bun would you like?</label>
+      <select id="buntype" name="buntype">
+        <option value="Sesame">Sesame</option>
+        <option value="Potato">Potato</option>
+        <option value="Pretzel">Pretzel</option>
+      </select>
+      <hr />
+      <label for="sauce"> What type of sauce would you like?</label>
+      <input list="sauces" name="sauce" id="sauce" />
+      <datalist id="sauces">
+        <option value="ketchup"></option>
+        <option value="mayo"></option>
+        <option value="mustard"></option>
+      </datalist>
+
+      <hr />
+      <lable for="anything">Anything else you want to add?</lable><br />
+      <textarea id="anything"></textarea>
+
+      <hr />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
